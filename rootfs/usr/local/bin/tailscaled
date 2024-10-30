@@ -1,7 +1,1 @@
-#!/usr/bin/env sh
-
-# change chdir
-cd /config
-
-# run with limited permissions
-exec s6-setuidgid $PUID:$PGID /app/tailscaled "$@"
+/app/tailscaled
