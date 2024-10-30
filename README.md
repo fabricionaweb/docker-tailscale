@@ -7,6 +7,7 @@ Just another tailscale image. But compiled from the source.
 Upstream environments available https://tailscale.com/kb/1282/docker#parameters.
 
 - `TS_USERSPACE=false` disable userspace (default is enable) to use /dev/tun
+- `TS_HOSTNAME=container` add hostname
 
 **Needed docker arguments**
 
