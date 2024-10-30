@@ -37,7 +37,7 @@ RUN mkdir /build && \
 FROM base
 
 ENV S6_VERBOSITY=0 S6_BEHAVIOUR_IF_STAGE2_FAILS=2 PUID=65534 PGID=65534
-ENV HOME=/config TS_STATE_DIR=/config
+ENV HOME=/config TS_STATE_DIR=/config TS_USERSPACE=false
 WORKDIR /config
 VOLUME /config
 
