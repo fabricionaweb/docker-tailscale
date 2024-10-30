@@ -13,6 +13,7 @@ Upstream environments available https://tailscale.com/kb/1282/docker#parameters.
 **Needed docker arguments**
 
 - `--cap-add=NET_ADMIN --cap-add=SYS_MODULE`
+- `--sysctls net.ipv6.conf.all.forwarding=1`
 
 **Needed docker devices**
 
